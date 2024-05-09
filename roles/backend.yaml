@@ -1,0 +1,5 @@
+- name: Confifure Backend server
+  hosts: Backend
+  become: yes
+  roles:
+  - backend

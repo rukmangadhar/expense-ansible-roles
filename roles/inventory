@@ -1,0 +1,11 @@
+[db]
+db.practdaws.online
+
+[backend]
+backend.practdaws.online
+
+[frontend]
+practdaws.online
+
+[all:vars]
+ansible_password=DevOps321
