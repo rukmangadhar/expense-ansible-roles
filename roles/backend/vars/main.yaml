@@ -1,3 +1,5 @@
 login_host: db.practdaws.online
 login_password: ExpenseApp@1
 DB_HOST: db.practdaws.online
+app_location: /app
+component: backend
