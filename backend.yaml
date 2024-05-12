@@ -1,5 +1,8 @@
 - name: Confifure Backend server
   hosts: backend
   become: yes
+  vars_files:
+  - credentials.yaml
+  
   roles:
   - backend
