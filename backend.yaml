@@ -2,7 +2,7 @@
   hosts: backend
   become: yes
   vars_files:
-  - credentials
+  - credentials.yaml
 
   roles:
   - backend
