@@ -2,7 +2,7 @@
   hosts: frontend
   become: yes
   vars_files:
-  - credentials.yaml
+  - credentials
   
   roles:
   - frontend
